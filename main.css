@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.layout{
+    padding: 70px 50px;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+input{
+    min-width:400px;
+    margin-bottom: 20px;
+}
+
+table{
+    margin-bottom: 20px;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.buttons div:first-child{
+    margin-right:50px
+}
